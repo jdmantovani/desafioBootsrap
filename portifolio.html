@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Portifólio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+                <a href="#" class="logo">Start Bootstrap</a>
+                <nav>
+                       <ul>
+                           <li>
+                               <a href="#portifolio1">Portifólio</a>
+                           </li>
+                           <li>
+                               <a href="#about">About</a>
+                           </li>
+                           <li>
+                               <a href="#contato1">Contact</a>
+                           </li>
+                       </ul>
+                </nav>
+        </div>
+    </header>
+    <section class="container-fluid firstSection">
+        <div class="container" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12"  align="center">
+                <div class="row" >
+                    <div class="col-lg-12">
+                        <div class="avatar" style="background-image: url(IMG/avatar.png)" >
+
+                        </div>
+                    </div>
+                </div>
+                
+                <h1>START BOOTSTRAP</h1>
+                <hr>
+                <p>Grafic Artist - Web Designer - Illustrator </p>
+        </div>
+        
+    </section>
+    <section class="container-fluid" id="portifolio1">
+        <div class="container divImagens" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 portifolio"  align="center">
+                <h2 id="portifolio">PORTIFÓLIO</h2>
+                <hr>
+                <div class="row">
+                        <div class="col-lg-4 " >
+                            <div class="imagens" style="background-image: url(IMG/cabin.png)"></div>
+                        </div>
+
+                        <div class="col-lg-4" >
+                            <div class="imagens" style="background-image: url(IMG/cake.png)"></div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="imagens" style="background-image: url(IMG/circus.png);"></div>
+                        </div>
+                </div>           
+              
+                <div class="row">
+                        <div class="col-lg-4 " >
+                            <div class="imagens" style="background-image: url(IMG/game.png)"></div>
+                        </div>
+
+                        <div class="col-lg-4" >
+                            <div class="imagens" style="background-image: url(IMG/safe.png)"></div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="imagens" style="background-image: url(IMG/submarine.png);"></div>
+                        </div>
+                </div>           
+                  
+        </div>
+    </section>
+
+    <section class="container-fluid aboutSection" >
+        <div class="container divAbout" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12"  align="center">
+            <h2 id="about">ABOUT</h2>
+            <hr>
+            <article class="col-lg-6">
+                <p>
+                        Freelancer is a free bootstrap theme <br>
+                        created by Start Bootstrap. The <br>
+                        download includes the complet source <br>
+                        files including HTML, CSS and <br>
+                        JavaScript as well as optional SASS <br>
+                        stylesheet for easy customization</p>
+
+            </article>
+            <article class="col-lg-6">
+                <p>You can create your own custom avatar <br>
+                        for the masthead, change the icon in the <br>
+                        dividers, and add your email address to <br>
+                        the contact form to make it flully <br>
+                        functional!</p> <br>
+            </article>
+            <button type="button" class="btn btn-light">Free Download</button>
+
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container divCadastro" id="contato1" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <h2 align="center" id="contato">CONTACT ME</h2>
+            <hr>
+            <form action="cadastro"></form>
+            <label for="nomeCompleto">Nome completo: </label><br>
+            <input type="text" name="nomeCompleto" id="nomeCompleto" placeholder="Maria da Silva" required class=form-control>
+            <br>
+            <br>
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" id="email" placeholder="maria@email.com" required="yes" class=form-control>
+            <br>
+            <br>
+            <label for="">Phone:</label><br>
+            <input type="phone" name="phone" id="phone" required placeholder="5511999999999" class=form-control>
+            <br>
+            <br>
+            <label for="comentarios">Message</label><br>
+            <textarea class=form-control name="comentarios" id="comentarios" cols="30" rows="3">Um texto aqui</textarea>
+            <br>
+            <br>
+            <button type="button" class="btn btn-success">Send</button>
+
+        </div>
+    </section>
+    <section class="container-fluid location" >
+        <div class="container divLocation" class="row col-xs-12 col-sm-12 col-md-12 col-lg-12" align="center">
+            
+            <article class="col-lg-4 location">
+                    <h3>Location</h3>
+                    <p>2215 John Daniel Drive</p>
+                    <p>Clark, MO 65243</p>
+            </article>
+            <article class="col-lg-4 location">
+                    <h3>Around the Web</h3>
+                    <p>2215 John Daniel Drive</p>
+                    <p>Clark, MO 65243</p>
+            </article>
+            <article class="col-lg-4 location">
+                    <h3>About freelancer</h3>
+                    <p>2215 John Daniel Drive</p>
+                    <p>Clark, MO 65243</p>
+            </article>
+            
+        </div>
+    </section>
+    <footer class="container-fluid">
+       
+           <div class="container">
+                Copyright
+
+           </div>
+               
+        
+    </footer>
+   
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+    crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

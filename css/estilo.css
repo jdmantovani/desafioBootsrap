@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    /*z-index: 1;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(31, 28, 26);
+    
+}
+
+
+header {
+    /*border: 2px solid rgb(45, 62, 80);*/
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(45, 62, 80);
+    z-index: 1;
+}
+
+section{
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+nav ul li {
+    float: left;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+}
+
+
+
+.logo {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.avatar {
+    width: 150px;
+    text-align: center;
+    background-position: center;
+    background-size:cover;
+    height: 150px;
+}
+
+.firstSection {
+    background-color: rgb(92, 189, 156);
+    margin-top: 108px;
+    height: 300px;
+    color: white;
+  
+}
+
+.foto {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imagens {
+    width: 350px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+article{
+    float: left;
+    
+}
+
+.aboutSection {
+    background-color: rgb(92, 189, 156);
+    scroll-padding-bottom: 100px;
+}
+
+.row {
+    padding: 10px;
+}
+
+.location {
+    background-color: rgb(45, 62, 80);
+    color: white;
+    font-size: 10px
+}
+
+footer  {
+    overflow: hidden;
+    background-color: rgb(27, 37, 47);
+    width: 100%;
+    height: 20%;
+
+}
+
+#portifolio {
+    padding-top: 50px;
+}
+
+#about {
+    padding-top: 50px;
+}
+
+.divAbout {
+    padding-bottom: 30px;
+    color: white;
+}
+
+#contato {
+    padding-top: 50px;
+}
+
+.divImagens {
+    padding-bottom: 30px;
+}
+
+.divCadastro {
+    padding-bottom: 30px;
+}
+
+.divLocation {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+
+
